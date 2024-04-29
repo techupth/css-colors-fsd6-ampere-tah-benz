@@ -1,1 +1,20 @@
-/* Start coding here */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+}
+
+form {
+  height: fit-content;
+  border: none;
+  padding: 30px;
+  background-color: hsla(0, 50%, 100%, 0.5);
+  text-align: center;
+}
